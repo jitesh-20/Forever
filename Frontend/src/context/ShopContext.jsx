@@ -125,7 +125,7 @@ const ShopContextProvider = (props) => {
             setToken(localStorage.getItem('token'));
             getUserCart(localStorage.getItem('token'));
         }
-    }, [])
+    }, []);
 
     const value = {
         products,
